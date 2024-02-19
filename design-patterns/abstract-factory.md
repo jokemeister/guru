@@ -2,18 +2,26 @@
 
 - Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
 
+- Абстрактна фабрика - це патерн проектування, який дозволяє створювати сім'ї пов'язаних об'єктів, не вказуючи їх конкретних класів.
+
 ## Problem
 
 You need a way to create individual products so that they match other products of the same family. Clients get quite mad when they receive non-matching products. Also, you don’t want to change existing code when adding new products or families of products to the program, because you add them very often, and you wouldn’t want to change the core code each time it happens.
+
+Вам потрібен спосіб створювати окремі продукти так, щоб вони відповідали іншим продуктам того ж сімейства. Крім того, ви не хочете змінювати існуючий код при додаванні нових продуктів або сімейств продуктів до програми, тому що ви додаєте їх дуже часто, і ви не хотіли б змінювати основний код кожного разу, коли це відбувається.
 
 ## Usage
 
 The Abstract Factory pattern is pretty common in TypeScript code. Many frameworks and libraries use it to provide a way to extend and customize their standard
 components.
 
+Шаблон абстрактної фабрики є досить поширеним у коді на TypeScript. Багато фреймворків та бібліотек використовують його для розширення та кастомізації своїх стандартних компонентів.
+
 ## Identification
 
 The pattern is easy to recognize by methods, which return a factory object. Then, the factory is used for creating specific sub-components.
+
+Шаблон легко розпізнати за методами, які повертають фабричний об'єкт. Потім фабрика використовується для створення конкретних підкомпонентів.
 
 ## Example
 
